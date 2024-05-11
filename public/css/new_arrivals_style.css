@@ -1,0 +1,22 @@
+.row .col-3{
+    width: 150px;
+    border-left: none;
+    border-right: 1px solid #e3e3e3;
+}
+.row .col-3 > img{
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.row .col-2{
+    width: 150px;
+    border-left: 1px solid #e3e3e3;
+    border-right: none;
+}
+.row .col-2 > div{
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}

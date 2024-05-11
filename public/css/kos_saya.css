@@ -1,0 +1,88 @@
+.profile-container {
+    margin: 30px;
+}
+
+.img-profil {
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 3px;
+}
+
+.menu-profil ul {
+    list-style: none;
+    padding: 18px 0;
+}
+
+.menu-profil ul li a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    width: fit-content;
+}
+
+a {
+    cursor: pointer;
+}
+
+.menu-button{
+    border-bottom: 1px solid #dbdbdb;
+    padding: 18px;
+
+}
+
+.menu-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.link-active {
+    color: black;
+    text-decoration: none;
+}
+
+.kost-empty {
+    align-items: center;
+    margin: 0 auto;
+    max-width: 434px;
+    padding: 32px 0 48px;
+    margin-top: 16px;
+}
+
+.benefit-list {
+    list-style: none;
+    padding: 18px 0;
+    margin: 15px 0;
+}
+
+.benefit-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.benefit-button {
+    display: flex;
+    margin: 15px 0;
+    width: 100%;
+}
+
+#buttonedit {
+    background-color: white;
+    border: 1px solid grey;
+    color: green;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#buttonedit:hover {
+    background-color: black;
+    color: white;
+}
+ 
+
+
+

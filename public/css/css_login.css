@@ -1,0 +1,43 @@
+.login {
+    margin: 50px auto;
+    width: 400px;
+    padding: 20px;
+    margin-top: 150px;
+}
+.login h4{
+    text-align:center;
+}
+.login p{
+    text-align:center;
+}
+.create p{
+    color:grey;
+}
+.create a{
+    text-decoration:none;
+    color: black;
+}
+.create a:hover{
+    color: grey;
+}
+input[type=text], input[type=password], input[type="name"], input[type="password_confirmation"] { 
+    width: 100%;
+    padding: 10px;
+}
+input[type=submit] {
+    margin: 20px auto;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #fff;
+    color: #fff;
+    background: black;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background: grey;
+}
+#eye-icon{
+    margin-top: -30px;
+    float: right;
+    margin-right: 40px;
+}
